@@ -5,3 +5,83 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: white;
+    display: grid;
+    grid-template-rows: auto 120vh auto; /*100vh middle space for content*/
+}
+*{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*display the nav bar in a row*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: dimgray;
+}
+.logo{
+    color:rgb(224, 147, 182);
+    font-size: 43px;
+    /*text-align: left;*/
+    left: 10px;
+    text-decoration: none;
+}
+/*removing bullets and stuff from the default ul list setting*/
+ul{
+    list-style-type: none;
+    margin-left: auto; /*pushes content far from the left. it will display on the right side*/
+    padding: 0;
+    height: 60px;
+    display: flex;
+}
+/*styling the words and making a clickable box with a width*/
+li a{
+    display: block;
+    padding: 20px 20px;
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+li a:active{
+    background-color: rgb(169, 12, 91);
+}
+li a:hover{
+    background-color: black;
+}
+
+#homedes{
+    padding: 80px;
+    padding-left: 100px;
+    font-size: larger;
+    
+}
+footer{
+    text-align: center;
+    background: dimgray;
+    color: antiquewhite;
+}
+.image{
+    height: 300px;
+    display: flex;
+    justify-content: flex-end; /*puts image and far end of page. there are many ways to do this like float: right as well*/
+}
+.image img {
+    position: relative; /*set position relative so we can move it around*/
+    top: -60%;
+    right: 30%;
+}
+.image2 {
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.image2 img{
+    position: relative; /*set position relative so we can move it around*/
+    top: -60%;
+    right: 10%;
+
+}
