@@ -8,7 +8,7 @@
 body{
     background: white;
     display: grid;
-    grid-template-rows: auto 120vh auto; /*100vh middle space for content*/
+    grid-template-rows: auto 130vh auto; /*100vh middle space for content*/
 }
 *{
     font-family: 'Alumni Sans Collegiate One', sans-serif;
@@ -84,4 +84,14 @@ footer{
     top: -60%;
     right: 10%;
 
+}
+.shopnow{
+    height: 42px;
+    width: 100px;
+    background-color:black ;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    color: antiquewhite;
 }
