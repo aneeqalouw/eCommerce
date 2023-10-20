@@ -27,6 +27,12 @@ nav {
     font-size: 43px;
     /*text-align: left;*/
     left: 10px;
+    /*text-decoration: none;*/
+}
+.logo a p{
+    text-decoration: none;
+}
+.shopnow a p{
     text-decoration: none;
 }
 /*removing bullets and stuff from the default ul list setting*/
@@ -94,4 +100,25 @@ footer{
     border-radius: 10px;
     text-align: center;
     color: antiquewhite;
+}
+/* Display - flex */
+#products, .button{
+    display: flex;
+}
+#products {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button button {
+    background-color: rgb(134, 119, 119);
+    color: antiquewhite;
+    border-radius: 10px;
+    width: 100px;
+}
+.item {
+    text-align: center;
 }
