@@ -248,8 +248,27 @@ footer{
     animation-iteration-count: 1;
     animation-direction: normal;
 }
-
-
+.details {
+    position: relative;
+    top: 20%;
+    float: right;
+    right: 20%;
+}
+.contacts {
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.contact-box {
+    width: 300px;
+}
+form {
+    width: 100%;
+}
 
 
 
