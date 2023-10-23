@@ -250,26 +250,45 @@ footer{
 }
 .details {
     position: relative;
-    top: 20%;
+    top: 25%;
     float: right;
     right: 20%;
 }
 .contacts {
     position: relative;
     top: 20%;
-    left: 20%;
+    left: 15%;
 }
 .wrapper {
     display: flex;
     flex-direction: column;
 }
 .contact-box {
-    width: 300px;
+    width: 400px;
+    background-color: dimgray;
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
 }
 form {
     width: 100%;
 }
-
+.button-wrapper button{
+    width: 100px;
+    height: 30px;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10px;
+}
+#msg {
+    border-radius: 10px;
+}
+#fname {
+    border-radius: 10px;
+}
+#emailad {
+    border-radius: 10px;
+}
 
 
 
