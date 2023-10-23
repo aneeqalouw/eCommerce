@@ -27,12 +27,13 @@ nav {
     font-size: 43px;
     /*text-align: left;*/
     left: 10px;
+    font-weight: bold;
     /*text-decoration: none;*/
 }
-.logo a p{
+.logo a, nav a{
     text-decoration: none;
 }
-.shopnow a p{
+ .shopnow a, #homedes a{
     text-decoration: none;
 }
 /*removing bullets and stuff from the default ul list setting*/
@@ -122,3 +123,134 @@ footer{
 .item {
     text-align: center;
 }
+.aboutSec{
+    width: 100%;
+    top: 3%;
+    text-align: center;
+    position: relative;
+}
+@keyframes slideUp {
+    from { transform: translateY(700px);
+
+    }
+
+    to{ transform: translateY(0);
+
+    }
+}
+#waw{
+    animation-name: slideUp;
+    animation-duration: 1.1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes slideUpp1 {
+    from { transform: translateY(700px);
+
+    }
+
+    to{ transform: translateY(0);
+
+    }
+}
+#pwaw{
+    animation-name: slideUpp1;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes slideUph2 {
+    from { transform: translateY(700px);
+
+    }
+
+    to{ transform: translateY(0);
+
+    }
+}
+#abouth2{
+    animation-name: slideUph2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes slideUpos {
+    from { transform: translateY(700px);
+
+    }
+
+    to{ transform: translateY(0);
+
+    }
+}
+#os{
+    animation-name: slideUpos;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes slideUppos {
+    from { transform: translateY(700px);
+
+    }
+
+    to{ transform: translateY(0);
+
+    }
+}
+#pos{
+    animation-name: slideUppos;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes slideUpca {
+    from { transform: translateY(700px);
+
+    }
+
+    to{ transform: translateY(0);
+
+    }
+}
+#ca{
+    animation-name: slideUpca;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes slideUppca {
+    from { transform: translateY(700px);
+
+    }
+
+    to{ transform: translateY(0);
+
+    }
+}
+#pca{
+    animation-name: slideUppca;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+
+
+
+
+
